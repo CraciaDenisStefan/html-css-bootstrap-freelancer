@@ -3,3 +3,44 @@
     margin: 0;
     box-sizing: border-box;
  }
+ .background_red{
+    background-color: red;
+ }
+ .background_aqua{
+    background-color: aqua;
+    height: 200px;
+ }
+ .background_blue{
+    background-color:blue;
+    height: 150px;
+ }
+ .background_green{
+    background-color: green;
+    height: 100px;
+ }
+ .background_yellow{
+    background-color: yellow;
+    height: 50px;
+ }
+ .background_black{
+    background-color: black;
+    height: 10px;
+    border: 1px solid white;
+ }
+ .background_orange{
+    background-color: orange;
+    border: 1px solid black;
+    height: 50px;
+ }
+ .ul_col{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+ }
+ li{
+    width: 50px;
+    text-decoration: none;
+    margin: 10px;
+    height: 10px;
+    background-color: blueviolet;
+ }
