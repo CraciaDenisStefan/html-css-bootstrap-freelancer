@@ -3,16 +3,16 @@
       margin: 0;
       box-sizing: border-box;
    }
-   header{
+   .background_header_footer{
       background-color: #2c3e50;
    }
    .color_custom{
       color: #2c3e50;
    }
-   .text_white{
+   .icon_invert_color{
       filter: invert(1);
    }
-      .start_bootstrap{
+   .start_bootstrap{
       font-weight: bold;
       text-align: center;
       color: white;
@@ -30,42 +30,12 @@
       border: 2px solid #2c3e50;
       border-radius:20px;
    }
-   .text_black{
-      color: black;
-   }
+  
    .background_sec_footer{
       background-color: rgb(57, 48, 110);
    }
-   .h_150{
-      height: 150px;
-   }
-   .background_red{
-      background-color: red;
-   }
    .background_aqua{
       background-color: rgb(26, 188, 156);
-   }
-   .background_blue{
-      background-color:blue;
-      height: 150px;
-   }
-   .background_green{
-      background-color: green;
-      height: 100px;
-   }
-   .background_yellow{
-      background-color: yellow;
-      height: 50px;
-      border: 1px solid black;
-   }
-   .background_black{
-      background-color: black;
-      height: 10px;
-      border: 1px solid white;
-   }
-   .background_orange{
-      background-color: orange;
-   
    }
    .img_w{
       width: 100%;
@@ -79,4 +49,37 @@
    }
    .border_none{
       border: none;
+   }
+   .background_top_footer{
+      background-color: #3A546D;
+   }
+   .normal_padding{
+      padding: 5px 10px;
+   }
+   .different_padding{
+      padding: 5px 10px;
+   }
+   .social{
+      font-size: 16px;
+      border: 1px solid white;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      padding-top: 11px ;
+      padding-bottom: 11px;
+      padding-left: 12px;
+      padding-right: 26px;
+      margin: 3px;
+   }
+   .top_footer_a{
+      text-decoration: none;
+      color: rgb(26, 188, 156);
+   }
+   .copy{
+      text-decoration: none;
+      color: white;
+      font-size: 12px;
+   }
+   .social:hover{
+      background-color: #2c3e50;
    }

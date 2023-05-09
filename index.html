@@ -11,7 +11,7 @@
     <title>Bootstrap Freelancer</title>
 </head>
 <body>
-    <header>
+    <header class="background_header_footer">
         <!-- Inizio header -->
             <div class="container">
                 <div class="row">
@@ -19,8 +19,8 @@
                         <nav class="navbar navbar-expand-md">
                             <div class="container-fluid text-white">
                               <a class="navbar-brand text-white fw-bold" href="#">START BOOTSTRAP</a>
-                              <button class="navbar-toggler text_white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon text-white"></span>
+                              <button class="navbar-toggler icon_invert_color" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
                               </button>
                                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                                     <ul class="navbar-nav mb-2 mb-lg-0">
@@ -80,7 +80,7 @@
             <!-- Inizio section Portfoglio -->
             <div class="container py-5">
                 <div class="row mb-4 justify-content-center">
-                    <div class="col-10  color_custom">
+                    <div class="col-10">
                         <h4 class=" mb-3 fw-semibold text-center">PORTFOGLIO</h4>
                         <div class="row justify-content-center">
                             <div class="col-3 d-flex justify-content-center align-items-center">
@@ -161,7 +161,7 @@
             <!-- Inizio section Contact me -->
             <div class="container my-3">
                 <div class="row justify-content-center">
-                    <div class="col-5 my-4 color_custom">
+                    <div class="col-5 my-4">
                         <h4 class=" mb-3 fw-semibold text-center">CONTACT ME</h4>
                         <div class="row justify-content-center">
                             <div class="col-3 d-flex justify-content-center align-items-center">
@@ -179,7 +179,7 @@
                     </div>
                     <!-- Inizio form -->
                     <div class="col-10">
-                        <form class="row ">
+                        <form class="row pb-4 ">
                             <div class="col-12">
                               <input type="text" class="form-control border_bottom rounded-0" id="inputname" placeholder="Name">
                             </div>
@@ -202,27 +202,38 @@
         </section>
     </main>
     <footer>
-        <section class="background_sec_footer">
+        <!-- Inizio footer -->
+        <section class="background_top_footer">
+            <!-- Inizio section top footer -->
             <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-4 background_yellow"></div>
-                    <div class="col-12 col-md-4 background_yellow">
-                        <h2></h2>
-                        <div class="row justify-content-center">
-                            <div class="col-2 background_black"></div>
-                            <div class="col-2 background_black"></div>
-                            <div class="col-2 background_black"></div>
-                            <div class="col-2 background_black"></div>
-                        </div>
+                <div class="row pt-4 g-4">
+                    <div class="col-12 col-md-4 text-center text-white">
+                        <h6 class="fw-semibold">LOCATION</h6>
+                        <p>2215 John Daniel Drive Clark, MO 54243</p>
                     </div>
-                    <div class="col-12 col-md-4 background_yellow"></div>
+                    <div class="col-12 col-md-4  text-center text-white">
+                        <h6 class="fw-semibold">AROUND THE WEB</h6>
+                        <span class="text-white">
+                            <i class="fa-brands fa-facebook-f social"></i>
+                            <i class="fa-brands fa-google-plus-g social"></i>
+                            <i class="fa-brands fa-twitter social"></i>
+                            <i class="fa-brands fa-linkedin-in social"></i>
+                        </span>
+                    </div>
+                    <div class="col-12 col-md-4 text-center text-white pb-4">
+                        <h6 class="fw-semibold ">ABOUT FREELANCER</h6>
+                        <p>Freelancer is a free to use, open source Bootstrap theme created by <a class="top_footer_a" href="#">Start Bootstrap</a>.</p>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="background_h_f">
+        <section class="background_header_footer py-4">
+            <!-- Inizio section bottom footer  -->
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-6 background_yellow"></div>
+                    <div class="col-12 text-center">
+                        <a class="copy fw-semibold" href="#">Copyright &copy; Your Webside 2019</a>
+                    </div>
                 </div>
             </div>
         </section>
