@@ -6,6 +6,43 @@
  header{
     background-color: #2c3e50;
  }
+ .text_white{
+   filter: invert(1);
+}
+  /* Inizio HEADER */
+ /* Fine HEADER */
+   /* Inizio MAIN */
+   /* Inizio SECTION START BOOTSTRAP */
+   .start_bootstrap{
+     font-weight: bold;
+     text-align: center;
+     color: white;
+   }
+   .fa-star{
+      font-size: 30px;
+   }
+   .line_star{
+    width: 100%;
+    border: 2px solid white;
+    border-radius:20px;
+   }
+ 
+ /* Fine SECTION START BOOTSTRAP */
+
+     /* Inizio SECTION PORTFOGLIO */
+ /* Fine SECTION PORTFOGLIO */
+
+     /* Inizio SECTION START ABOUT */
+ /* Fine SECTION START ABOUT */
+
+     /* Inizio SECTION START CONTACT ME */
+ /* Fine SECTION START CONTACT ME */
+
+ /* Fine MAIN */
+   /* Inizio FOOTER */
+ /* Fine FOOTER */
+
+
  .background_sec_footer{
     background-color: rgb(57, 48, 110);
  }
